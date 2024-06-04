@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sideBtn{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 40px;
+    background-color: rgb(184, 180, 180);
+    color: whitesmoke;
+    position: absolute;
+    z-index: 2;
+}
+
+h1{
+    margin: 20px;
+    font-size: 45px;
+    color:whitesmoke ;
+    line-height: 3;
+}
+
+
+li{
+    list-style-type:none ;
+}
+ul{
+    padding-top: 40px;
+}
+
+.sidebar{
+    background-color: black;
+    width: 250px;
+    height: 687px;
+    transform: translate(-250px);
+    transition: 0.5s;
+    /* margin-top: 40px; */
+}
+.sidebar2{
+    transform: translate(0px);
+}
